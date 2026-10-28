@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="p-5 mb-4 bg-light rounded-3 text-center">
+    <h1 class="display-4 fw-bold">Student Management System</h1>
+    <p class="col-md-8 mx-auto fs-4">Manage enrollments, updates, and student records effortlessly.</p>
+    <div class="card mx-auto mt-4 shadow" style="max-width: 300px;">
+        <div class="card-body">
+            <h2 class="card-title text-primary">{{ total }}</h2>
+            <p class="card-text text-muted">Total Students Enrolled</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
